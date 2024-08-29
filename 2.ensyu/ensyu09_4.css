@@ -1,0 +1,52 @@
+.header{
+  text-align: center;
+}
+.confact-from{
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.from-title{
+  margin-bottom: 2px;
+  font-size: 1.2rem;
+}
+.contact-item input{
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+.contact-item select{
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 60%;
+}
+.contact-item textarea{
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  height: 100px;
+  width: 100%;
+}
+.must{
+  margin-left: 5px;
+  padding: 2px;
+  background-color: red;
+  color: #fff;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.btn{
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 10px 50px;
+  border-radius: 10px;
+  background-color: #7f6666;
+  color: #fff;
+  cursor: pointer;
+}
